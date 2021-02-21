@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Kaunity</title>
+  <title>vue原理相关 | Kaunity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Kaunity">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="VueVue的双向数据绑定原理是什么？vue.js 是采用数据劫持结合发布者-订阅者模式的方式，通过Object.defineProperty()来劫持各个属性的setter，getter，在数据变动时发布消息给订阅者，触发相应的监听回调。主要分为以下几个步骤：  ​    1、需要observe的数据对象进行递归遍历，包括子属性对象的属性，都加上setter和getter这样的话，给这个对象的某">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vue原理相关">
+<meta property="og:url" content="http://example.com/2020/08/21/vue%E5%8E%9F%E7%90%86%E7%9B%B8%E5%85%B3/index.html">
 <meta property="og:site_name" content="Kaunity">
+<meta property="og:description" content="VueVue的双向数据绑定原理是什么？vue.js 是采用数据劫持结合发布者-订阅者模式的方式，通过Object.defineProperty()来劫持各个属性的setter，getter，在数据变动时发布消息给订阅者，触发相应的监听回调。主要分为以下几个步骤：  ​    1、需要observe的数据对象进行递归遍历，包括子属性对象的属性，都加上setter和getter这样的话，给这个对象的某">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-08-21T14:37:15.000Z">
+<meta property="article:modified_time" content="2021-02-21T14:38:42.466Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="前端 js jquery ajax vue">
 <meta name="twitter:card" content="summary">
@@ -70,9 +74,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-vue原理相关" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-vue原理相关" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2020/08/21/vue%E5%8E%9F%E7%90%86%E7%9B%B8%E5%85%B3/" class="article-date">
   <time class="dt-published" datetime="2020-08-21T14:37:15.000Z" itemprop="datePublished">2020-08-21</time>
@@ -85,8 +87,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/08/21/vue%E5%8E%9F%E7%90%86%E7%9B%B8%E5%85%B3/">vue原理相关</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      vue原理相关
     </h1>
   
 
@@ -387,11 +389,9 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
   
+</article>
 
 
 </section>
